@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Titoka Chishi | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Scanlines overlay -->
+  <div class="scanlines"></div>
+  <!-- Grid bg -->
+  <div class="grid-bg"></div>
+  <!-- Glitch noise -->
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <span class="bracket">[</span>TC<span class="bracket">]</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about" data-text="ABOUT">ABOUT</a></li>
+      <li><a href="#skills" data-text="SKILLS">SKILLS</a></li>
+      <li><a href="#projects" data-text="PROJECTS">PROJECTS</a></li>
+      <li><a href="#experience" data-text="EXPERIENCE">EXPERIENCE</a></li>
+      <li><a href="#contact" data-text="CONTACT">CONTACT</a></li>
+    </ul>
+    <div class="nav-status">
+      <span class="status-dot"></span>
+      <span class="status-text">ONLINE</span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-tag">&lt;!-- WEB DEVELOPER --&gt;</div>
+      <h1 class="hero-name" id="glitch-name" data-text="TITOKA CHISHI">TITOKA CHISHI</h1>
+      <div class="hero-subtitle">
+        <span class="typing-text" id="typing"></span><span class="cursor">_</span>
+      </div>
+      <div class="hero-desc">
+        Building the digital frontier — one line of code at a time.
+        Specializing in immersive web experiences &amp; scalable systems.
+      </div>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">
+          <span class="btn-glitch">VIEW WORK</span>
+        </a>
+        <a href="#contact" class="btn-secondary">INITIATE CONTACT</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" data-target="3">0</span><span class="stat-label">YRS EXP</span></div>
+        <div class="stat-divider">//</div>
+        <div class="stat"><span class="stat-num" data-target="20">0</span><span class="stat-label">PROJECTS</span></div>
+        <div class="stat-divider">//</div>
+        <div class="stat"><span class="stat-num" data-target="15">0</span><span class="stat-label">CLIENTS</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-ring"></div>
+      <div class="avatar-ring ring2"></div>
+      <div class="avatar-ring ring3"></div>
+      <div class="avatar-box">
+        <div class="avatar-inner">TC</div>
+      </div>
+      <div class="orbit-dot dot1"></div>
+      <div class="orbit-dot dot2"></div>
+      <div class="orbit-dot dot3"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2 class="section-title">ABOUT_ME<span class="blink">;</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <div class="terminal-window">
+          <div class="terminal-bar">
+            <span class="t-dot red"></span>
+            <span class="t-dot yellow"></span>
+            <span class="t-dot green"></span>
+            <span class="t-title">titoka@dev:~$</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="prompt">$</span> whoami</p>
+            <p class="output">Titoka Chishi — Web Developer &amp; Digital Architect</p>
+            <p><span class="prompt">$</span> cat about.txt</p>
+            <p class="output">I craft high-performance web applications with a passion for clean architecture and cutting-edge design. Proficient in both front-end aesthetics and back-end logic, I bridge the gap between beautiful interfaces and powerful systems.</p>
+            <p class="output">When I'm not coding, I'm exploring new frameworks, contributing to open-source, and pushing the limits of what the web can do.</p>
+            <p><span class="prompt">$</span> <span class="cursor-small blink">█</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="about-info">
+        <div class="info-card">
+          <div class="info-item">
+            <span class="info-key">NAME</span>
+            <span class="info-val">Titoka Chishi</span>
+          </div>
+          <div class="info-item">
+            <span class="info-key">ROLE</span>
+            <span class="info-val">Web Developer</span>
+          </div>
+          <div class="info-item">
+            <span class="info-key">STATUS</span>
+            <span class="info-val"><span class="status-dot small"></span> Available for Work</span>
+          </div>
+          <div class="info-item">
+            <span class="info-key">LOCATION</span>
+            <span class="info-val">India</span>
+          </div>
+          <div class="info-item">
+            <span class="info-key">FOCUS</span>
+            <span class="info-val">Full-Stack Development</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2 class="section-title">SKILL_SET<span class="blink">;</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <div class="skill-cat-title"><span class="cat-icon">▸</span> FRONTEND</div>
+        <div class="skill-bars">
+          <div class="skill-bar-item"><span class="skill-name">HTML / CSS</span><div class="bar-track"><div class="bar-fill" data-width="95"></div></div><span class="skill-pct">95%</span></div>
+          <div class="skill-bar-item"><span class="skill-name">JavaScript</span><div class="bar-track"><div class="bar-fill" data-width="88"></div></div><span class="skill-pct">88%</span></div>
+          <div class="skill-bar-item"><span class="skill-name">React.js</span><div class="bar-track"><div class="bar-fill" data-width="82"></div></div><span class="skill-pct">82%</span></div>
+          <div class="skill-bar-item"><span class="skill-name">Vue.js</span><div class="bar-track"><div class="bar-fill" data-width="70"></div></div><span class="skill-pct">70%</span></div>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-cat-title"><span class="cat-icon">▸</span> BACKEND</div>
+        <div class="skill-bars">
+          <div class="skill-bar-item"><span class="skill-name">Node.js</span><div class="bar-track"><div class="bar-fill" data-width="80"></div></div><span class="skill-pct">80%</span></div>
+          <div class="skill-bar-item"><span class="skill-name">Python</span><div class="bar-track"><div class="bar-fill" data-width="75"></div></div><span class="skill-pct">75%</span></div>
+          <div class="skill-bar-item"><span class="skill-name">SQL / MongoDB</span><div class="bar-track"><div class="bar-fill" data-width="78"></div></div><span class="skill-pct">78%</span></div>
+          <div class="skill-bar-item"><span class="skill-name">REST APIs</span><div class="bar-track"><div class="bar-fill" data-width="85"></div></div><span class="skill-pct">85%</span></div>
+        </div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-cat-title"><span class="cat-icon">▸</span> TOOLS & SYSTEMS</div>
+        <div class="skill-tags">
+          <span class="tag">Git</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Linux</span>
+          <span class="tag">AWS</span>
+          <span class="tag">Figma</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">Webpack</span>
+          <span class="tag">CI/CD</span>
+          <span class="tag">GraphQL</span>
+          <span class="tag">TypeScript</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2 class="section-title">PROJECTS<span class="blink">;</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-id">PRJ_001</div>
+        <div class="project-tag">FULL STACK</div>
+        <h3 class="project-name">NexaCommerce</h3>
+        <p class="project-desc">A high-performance e-commerce platform with real-time inventory, AI-based product recommendations, and blazing-fast checkout flow.</p>
+        <div class="project-stack">
+          <span>React</span><span>Node.js</span><span>MongoDB</span><span>Redis</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="proj-link">[ LIVE ]</a>
+          <a href="#" class="proj-link">[ CODE ]</a>
+        </div>
+        <div class="project-glow"></div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-id">PRJ_002</div>
+        <div class="project-tag">FRONTEND</div>
+        <h3 class="project-name">CyberDash</h3>
+        <p class="project-desc">An analytics dashboard with live data streams, interactive charts, and a sleek dark-mode interface built for maximum data density.</p>
+        <div class="project-stack">
+          <span>Vue.js</span><span>D3.js</span><span>WebSockets</span><span>SCSS</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="proj-link">[ LIVE ]</a>
+          <a href="#" class="proj-link">[ CODE ]</a>
+        </div>
+        <div class="project-glow"></div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-id">PRJ_003</div>
+        <div class="project-tag">BACKEND</div>
+        <h3 class="project-name">AuthMatrix</h3>
+        <p class="project-desc">A robust microservices authentication system featuring JWT, OAuth2, 2FA, and rate limiting for enterprise-grade security.</p>
+        <div class="project-stack">
+          <span>Node.js</span><span>PostgreSQL</span><span>Docker</span><span>JWT</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="proj-link">[ LIVE ]</a>
+          <a href="#" class="proj-link">[ CODE ]</a>
+        </div>
+        <div class="project-glow"></div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-id">PRJ_004</div>
+        <div class="project-tag">FULL STACK</div>
+        <h3 class="project-name">SyncSpace</h3>
+        <p class="project-desc">A real-time collaborative workspace with live code editing, shared whiteboards, and video chat — built for remote dev teams.</p>
+        <div class="project-stack">
+          <span>React</span><span>Socket.io</span><span>Python</span><span>AWS</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="proj-link">[ LIVE ]</a>
+          <a href="#" class="proj-link">[ CODE ]</a>
+        </div>
+        <div class="project-glow"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <h2 class="section-title">EXPERIENCE<span class="blink">;</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2023 — PRESENT</div>
+        <div class="timeline-card">
+          <div class="tl-company">TechNova Solutions</div>
+          <div class="tl-role">Senior Web Developer</div>
+          <p class="tl-desc">Led the development of client-facing web platforms. Architected scalable REST APIs, mentored junior developers, and reduced page load times by 60% through performance optimization.</p>
+          <div class="tl-tags"><span>React</span><span>Node.js</span><span>AWS</span></div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2022 — 2023</div>
+        <div class="timeline-card">
+          <div class="tl-company">Pixel &amp; Wire Agency</div>
+          <div class="tl-role">Frontend Developer</div>
+          <p class="tl-desc">Built interactive web experiences for 10+ clients. Developed reusable component libraries and implemented pixel-perfect designs with smooth animations.</p>
+          <div class="tl-tags"><span>Vue.js</span><span>GSAP</span><span>SCSS</span></div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2021 — 2022</div>
+        <div class="timeline-card">
+          <div class="tl-company">StartupGrid</div>
+          <div class="tl-role">Junior Web Developer</div>
+          <p class="tl-desc">Contributed to an early-stage SaaS product. Gained hands-on experience with full-stack development, agile workflows, and rapid prototyping.</p>
+          <div class="tl-tags"><span>JavaScript</span><span>Python</span><span>MongoDB</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-header">
+      <span class="section-num">05</span>
+      <h2 class="section-title">CONTACT<span class="blink">;</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p class="contact-tagline">// Ready to build something extraordinary?</p>
+        <p class="contact-desc">Whether you have a project in mind, need a developer to join your team, or just want to connect — my inbox is always open.</p>
+        <div class="contact-links">
+          <a href="mailto:titoka@dev.io" class="contact-item">
+            <span class="ci-icon">✉</span>
+            <span>titoka@dev.io</span>
+          </a>
+          <a href="#" class="contact-item">
+            <span class="ci-icon">⌁</span>
+            <span>github.com/titokachishi</span>
+          </a>
+          <a href="#" class="contact-item">
+            <span class="ci-icon">◈</span>
+            <span>linkedin.com/in/titokachishi</span>
+          </a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label>NAME<span class="required">*</span></label>
+          <input type="text" placeholder="Your name..." />
+        </div>
+        <div class="form-group">
+          <label>EMAIL<span class="required">*</span></label>
+          <input type="email" placeholder="your@email.com" />
+        </div>
+        <div class="form-group">
+          <label>MESSAGE<span class="required">*</span></label>
+          <textarea rows="5" placeholder="Type your message..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary full-width">
+          <span>TRANSMIT MESSAGE</span>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo"><span class="bracket">[</span>TC<span class="bracket">]</span></div>
+      <p class="footer-copy">© 2025 Titoka Chishi — Designed &amp; Developed with ⚡</p>
+      <p class="footer-code">// All systems operational</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
